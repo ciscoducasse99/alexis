@@ -1,0 +1,209 @@
+/* .photo-ul-wrapper {
+  padding: 0;
+}
+
+.photo-ul-wrapper.multi li {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.photo-ul-wrapper.multi li:nth-child(odd) {
+  margin-right: 0;
+}
+.photo-ul-wrapper.multi li:nth-child(even) {
+  margin-left: 0;
+}
+
+.photo-ul-wrapper.multi .inner-container {
+  max-width: 1240px;
+  margin: 0 auto !important;
+}
+.photo-ul-wrapper.multi .inner-container ul {
+  margin-left: -2.6%;
+}
+
+.photo-ul-wrapper li {
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-ul-wrapper li:hover {
+  transform: scale(1.05);
+}
+
+.photo-ul-wrapper.multi li {
+  height: 550px;
+  background-size: cover;
+  overflow: hidden;
+  background-position: top center !important;
+  list-style-type: none;
+  max-width: 49%;
+  float: left;
+  position: relative;
+  margin-top: 2.6%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.photo-ul-wrapper.multi li .details {
+  position: absolute;
+  background-color: rgba(0, 115, 230, 0.6);
+  padding: 10px 20px;
+  top: 40%;
+}
+.photo-ul-wrapper.multi li h2 {
+  font-size: 30px;
+  color: #ffffff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  line-height: 1.25;
+}
+.photo-ul-wrapper.multi li p {
+  color: #ffffff;
+  margin: -30px 0 25px 0;
+}
+
+.photo-ul-wrapper.multi li:nth-child(odd) {
+  margin-right: 1%;
+}
+
+.photo-ul-wrapper.multi li:nth-child(even) {
+  margin-left: 1%;
+}
+
+.home-page.photo-ul-wrapper li .details {
+  min-height: 255px;
+} */
+
+.photo-ul-wrapper li {
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-ul-wrapper li:hover {
+  transform: scale(1.05);
+}
+
+.photo-ul-wrapper.multi .inner-container {
+  max-width: 1240px;
+  margin: 0 auto !important;
+}
+.photo-ul-wrapper.multi .inner-container ul {
+  margin-left: -2.6%;
+}
+
+.photo-ul-wrapper.multi li {
+  height: 550px;
+  background-size: cover;
+  overflow: hidden;
+  background-position: top center !important;
+  list-style-type: none;
+  width: 49%;
+  float: left;
+  position: relative;
+  margin-top: 2.6%;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 6px;
+}
+.photo-ul-wrapper.multi li .details {
+  position: absolute;
+  background-color: rgba(228, 33, 33, 0.6);
+  padding: 0px 20px;
+  top: 40%;
+  height: 10%;
+}
+.photo-ul-wrapper.multi li h2 {
+  font-size: 30px;
+  color: #ffffff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  line-height: 1.25;
+}
+.photo-ul-wrapper.multi li p {
+  color: #ffffff;
+  margin: -30px 0 25px 0;
+}
+
+.photo-ul-wrapper.multi li:nth-child(odd) {
+  margin-right: 1%;
+}
+
+.photo-ul-wrapper.multi li:nth-child(even) {
+  margin-left: 1%;
+}
+
+.photo-ul-wrapper li .details {
+  min-height: 255px;
+}
+
+.photo-ul-wrapper.multi li .details {
+  top: 30%;
+}
+
+h2.bu-style-h2-section-title {
+  font-size: 38px;
+  font-family: "Benton Sans Comp Bla", "Helvetica", "Arial", sans-serif;
+  padding: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+}
+h2.bu-style-h2-section-title:after {
+  display: block;
+  content: "";
+  width: 91px;
+  border-bottom: 7px solid #ffa60a;
+  margin: 25px auto;
+}
+
+h2.bu-style-h2-black {
+  font-size: 24px;
+  font-family: "BrandonTextWeb-Bold", "Helvetica", "Arial", sans-serif;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+h2.bu-style-h2-black:after {
+  display: block;
+  content: "";
+  width: 30px;
+  border-bottom: 4px solid #ffa60a;
+  margin-top: 16px;
+}
+
+.text {
+  font-family: "BrandonTextWeb-Regular", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+@media only screen and (max-width: 640px) {
+  .photo-ul-wrapper {
+    padding: 0;
+  }
+
+  .photo-ul-wrapper.multi li {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .photo-ul-wrapper.multi li:nth-child(odd) {
+    margin-right: 0;
+  }
+  .photo-ul-wrapper.multi li:nth-child(even) {
+    margin-left: 0;
+  }
+  .photo-ul-wrapper.multi ul {
+    margin-left: 0;
+  }
+  .photo-ul-wrapper.multi ul li {
+    margin-left: 0;
+    width: 100%;
+  }
+  .photo-ul-wrapper.multi ul li .details {
+    top: 20%;
+  }
+}
